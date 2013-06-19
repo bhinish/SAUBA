@@ -1,4 +1,9 @@
 Sauba::Application.routes.draw do
+
+  match 'issues'        => 'home#issues',       :via => :get
+  match 'about_us'      => 'home#about_us',     :via => :get
+  match 'get_involved'  => 'home#get_involved', :via => :get
+
   root :to => "home#index"
 
   # The priority is based upon order of creation:
