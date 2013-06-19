@@ -20,8 +20,9 @@
 }
 
 #sections .section .section_text {
-  width: 358px;
-  padding-right: 14px;
+  padding-top: 5px;
+  width: 342px;
+  padding-right: 30px;
 }
 
 #sections .section .section_pic {

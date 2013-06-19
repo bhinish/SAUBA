@@ -1,5 +1,5 @@
 #header {
-  height: 136px;
+  height: 126px;
   margin-bottom: 40px;
 }
 
@@ -33,7 +33,7 @@
 }
 
 #header #header_menu {
-  margin: 20px 0px;
+  margin: 15px 0px 15px 0px;
   height: 20px;
 }
 
