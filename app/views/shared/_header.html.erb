@@ -1,3 +1,39 @@
-<div>
-	header
+<%= stylesheet_link_tag "header" %>
+<div id="header">
+	<div>
+		<a class="logo_link" href=<%= url_for root_path %>>
+			<img src="/logo.png"/>
+		</a>
+		<div id="social_buttons">
+			<a href="https://twitter.com/saubapac">
+				<div class="social_button" id="social_button_twitter"></div>
+			</a>
+			<a href="https://www.facebook.com/SAUBAPAC">
+				<div class="social_button" id="social_button_facebook"></div>
+			</a>
+			<a href="" style="display: none">
+				<div class="social_button" id="social_button_linkedin"></div>
+			</a>
+			<a href="" style="display: none">
+				<div class="social_button" id="social_button_youtube"></div>
+			</a>
+		</div>
+	</div>
+	<div id="header_menu">
+		<div class="header_menu_item">
+			<a href=<%= url_for about_us_path %>>
+				About us
+			</a>
+		</div>
+		<div class="header_menu_item">
+			<a href=<%= url_for issues_path %>>
+				Issues
+			</a>
+		</div>
+		<div class="header_menu_item">
+			<a href=<%= url_for get_involved_path %>>
+				Get Involved
+			</a>
+		</div>
+	</div>
 </div>

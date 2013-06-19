@@ -1,0 +1,45 @@
+#header #social_buttons {
+  float: right;
+  padding-top: 22px;
+}
+
+#header #social_buttons .social_button {
+  float: left;
+  background-image: url('/social_buttons.png');
+  width: 36px;
+  height: 36px;
+  margin-left: 12px;
+}
+
+#header #social_buttons #social_button_twitter {
+  background-position: -87px -262px;
+}
+
+#header #social_buttons #social_button_facebook {
+  background-position: -207px -34px;
+}
+
+#header #social_buttons #social_button_linkedin {
+  background-position: -207px -186px;
+}
+
+#header #social_buttons #social_button_youtube {
+  background-position: -87px -34px;
+}
+
+#header #header_menu {
+  margin: 20px 0px;
+  height: 20px;
+}
+
+#header #header_menu .header_menu_item {
+  width: 224px;
+  float: left;
+  text-align: center;
+}
+
+#header #header_menu .header_menu_item a {
+  text-decoration: none;
+  font-size: 24px;
+  color: black;
+}
