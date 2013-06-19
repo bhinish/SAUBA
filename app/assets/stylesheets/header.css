@@ -1,3 +1,8 @@
+#header {
+  height: 136px;
+  margin-bottom: 40px;
+}
+
 #header #social_buttons {
   float: right;
   padding-top: 22px;

@@ -1,0 +1,10 @@
+@import "variables";
+
+body {
+  font-family: "Helvetica", "Arial";
+}
+
+#main_content {
+  width: $mainContentWidth;
+  margin: 0 auto;
+}
